@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="colores.css">
+</head>
+<body>
+    <h1 class="h1">
+        <em>
+            CALCULADORA BÁSICA
+        </em>
+    </h1>
+    <div class="cuadro">
+        <h1 id="pantalla">
+            R=
+        </h1>
+    </div>
+    <h1 class="teclado">
+        <button onclick="escribir('1')">1</button>
+        <button onclick="escribir('2')">2</button>
+        <button onclick="escribir('3')">3</button>
+        <br>
+        <button onclick="escribir('4')">4</button>
+        <button onclick="escribir('5')">5</button>
+        <button onclick="escribir('6')">6</button>
+        <br>
+        <button onclick="escribir('7')">7</button>
+        <button onclick="escribir('8')">8</button>
+        <button onclick="escribir('9')">9</button>
+        <br>
+        <button onclick="escribir('0')">0</button>
+        <button onclick="operacion('+')">+</button>
+        <button onclick="operacion('-')">-</button>
+        <br>
+        <button onclick="operacion('*')">×</button>
+        <button onclick="operacion('/')">÷</button>
+        <button onclick="resultadoFinal()">=</button>
+        <br>
+        <button onclick="borrar()">Borrar</button>
+    </h1>
+    <script src="calculadora.js"></script>
+</body>
+</html>
