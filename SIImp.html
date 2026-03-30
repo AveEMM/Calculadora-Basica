@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Multi Usos/Longitudes/SI</title>
+    <link rel="stylesheet" href="SIImp.css">
+</head>
+<body>
+    <h1 class="h1">
+        <em>
+            LONGITUDES(SI-Imp/Imp-SI)
+        </em>
+    </h1>
+    <div class="cuadro" id="tu">
+        <h3 id="mostrar">
+            
+        </h3>
+    </div>
+    <br>
+    <h1 class="teclado">
+        <button onclick="escribir('1')">1</button>
+        <button onclick="escribir('2')">2</button>
+        <button onclick="escribir('3')">3</button>
+        <br>
+        <button onclick="escribir('4')">4</button>
+        <button onclick="escribir('5')">5</button>
+        <button onclick="escribir('6')">6</button>
+        <br>
+        <button onclick="escribir('7')">7</button>
+        <button onclick="escribir('8')">8</button>
+        <button onclick="escribir('9')">9</button>
+        <br>
+        <button onclick="escribir('0')">0</button>
+        <button onclick="escribir('.')">.</button>
+        <button onclick="borrar()"> Borrar </button>
+        <br>
+        <button onclick="kilometro()">Km</button>
+        <button onclick="metro()">m</button>
+        <button onclick="centimetro()">cm</button>
+        <button onclick="milimetro()">mm</button>
+        <button onclick="kmImp()">km-Imp</button>
+        <button onclick="mImp()">m-Imp</button>
+        <button onclick="cmImp()">cm-Imp</button>
+        <button onclick="mmImp()">mm-Imp</button>
+        <br>
+        <button onclick="milla()">mi</button>
+        <button onclick="yarda()">yd</button>
+        <button onclick="pie()">ft</button>
+        <button onclick="pulgada()">in</button>
+        <button onclick="millaSI()">mi-SI</button>
+        <button onclick="yardaSI()">yd-SI</button>
+        <button onclick="pieSI()">ft-SI</button>
+        <button onclick="pulgadaSI()">in-SI</button>
+        <br>
+        <button onclick="window.location.href='index.html'" id="center">
+            Volver
+        </button>
+    </h1>
+    <script src="SIImp.js"></script>
+</body>
+</html>

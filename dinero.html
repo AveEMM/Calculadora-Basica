@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica/Dinero</title>
+    <link rel="stylesheet" href="dinero.css">
+</head>
+<body>
+    <h1 class="h1">
+        <em>
+            DINERO
+        </em>
+    </h1>
+    <h5>
+        <em>*Se actualiza el cambio cada domingo</em>
+    </h5>
+    <div class="cuadro" id="tu">
+        <h2 id="mostrar">
+
+        </h2>
+    </div>
+    <br>
+    <h1 class="teclado">
+        <button onclick="escribir('1')">1</button>
+        <button onclick="escribir('2')">2</button>
+        <button onclick="escribir('3')">3</button>
+        <br>
+        <button onclick="escribir('4')">4</button>
+        <button onclick="escribir('5')">5</button>
+        <button onclick="escribir('6')">6</button>
+        <br>
+        <button onclick="escribir('7')">7</button>
+        <button onclick="escribir('8')">8</button>
+        <button onclick="escribir('9')">9</button>
+        <br>
+        <button onclick="escribir('0')">0</button>
+        <button onclick="escribir('.')">.</button>
+        <button onclick="borrar()">Borrar</button>
+        <br>
+        <button onclick="mxnUsd()">MXN a USD</button>
+        <button onclick="usdMxn()">USD a MXN</button>
+        <button onclick="eurMxn()">EUR a MXN</button>
+        <br>
+        <button onclick="mxnEur()">MXN a EUR</button>
+        <button onclick="usdEur()">USD a EUR</button>
+        <button onclick="eurUsd()">EUR a USD</button>
+        <br>
+        <button onclick="window.location.href='index.html'">
+            Volver
+        </button>
+    </h1>
+    <script src="dinero.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Multi Usos/Temperatura</title>
+    <link rel="stylesheet" href="temperatura.css">
+</head>
+<body>
+    <h1 class="h1">
+        <em>
+            TEMPERATURA
+        </em>
+    </h1>
+    <h5>
+        <mark>
+            Escribe el valor de la temperatura que deseas convertir, luego selecciona si quieres convertirlo a °C, °F o °K
+            <br>
+            °C - °F
+            <br>
+            °F - °C
+            <br>
+            °C - °K
+        </mark>
+    </h5>
+    <div class="cuadro">
+         <h3 id="mostrar">
+             
+         </h3>
+    </div>
+    <br>
+    <h1 class="teclado">
+        <button onclick="resultc()">°C</button>
+        <button onclick="resultf()">°F</button>
+        <button onclick="resultk()">°K</button>
+        <br>
+        <button onclick="escribir('1')">1</button>
+        <button onclick="escribir('2')">2</button>
+        <button onclick="escribir('3')">3</button>
+        <br>
+        <button onclick="escribir('4')">4</button>
+        <button onclick="escribir('5')">5</button>
+        <button onclick="escribir('6')">6</button>
+        <br>
+        <button onclick="escribir('7')">7</button>
+        <button onclick="escribir('8')">8</button>
+        <button onclick="escribir('9')">9</button>
+        <br>
+        <button onclick="escribir('0')">0</button>
+        <button onclick="escribir('.')">.</button>
+        <button onclick="borrar()"> Borrar </button>
+        <br>
+        <button onclick="window.location.href='index.html'">
+            Volver
+        </button>
+    </h1>
+    <script src="temperatura.js"></script>
+</body>
+</html>

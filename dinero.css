@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    align-items: center;
+}
+
+.h1 {
+    color: rgb(255, 159, 70);
+    background-color:rgb(255, 206, 100);
+}
+
+.cuadro {
+    padding: 25px;
+    border: 15px double #3788d4;
+    background-color: rgb(216, 216, 216);
+    width: 750px;
+    height: 75px;
+    top: auto;
+    margin: 0 auto;
+}
+
+.teclado {
+    padding: 0cm ;
+    border: 7px solid rgb(255, 159, 70);
+    background-color: #36af9d;
+    width: 450px;
+    max-width: 450px;
+    min-width: 300px;
+    height: 275px;
+    min-height: 275px;
+    max-height: 275px;
+    margin:0 auto;
+}
+
+#mostrarpantalla {
+    white-space: pre-line;
+}
+
+#tu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 1;
+}

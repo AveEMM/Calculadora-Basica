@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(83, 83, 83);
+}
+
+.h1 {
+    color: rgb(211, 0, 0);
+    background-color: rgb(0, 0, 124);
+    text-align: center;
+    align-items: center;
+}
+
+.cuadro {
+    padding: 25px;
+    border: 15px double #3788d4;
+    background-color: rgb(216, 216, 216);
+    width: 750px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.teclado {
+    background-color: rgb(152, 253, 220);
+    text-align: center;
+    border: 7px solid #000000;
+    width: 450px;
+    max-width: 450px;
+    min-width: 300px;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    margin:0 auto;
+}

@@ -3,43 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Básica</title>
-    <link rel="stylesheet" href="colores.css">
+    <title>Calculadora Multi Usos</title>
+    <link rel="stylesheet" href="calculadoraindex.css">
 </head>
 <body>
-    <h1 class="h1">
-        <em>
-            CALCULADORA BÁSICA
-        </em>
+    <h1 class="titulo">
+        Calculadora Multi Usos
     </h1>
-    <div class="cuadro">
-        <h1 id="pantalla">
-            R=
-        </h1>
-    </div>
-    <h1 class="teclado">
-        <button onclick="escribir('1')">1</button>
-        <button onclick="escribir('2')">2</button>
-        <button onclick="escribir('3')">3</button>
-        <br>
-        <button onclick="escribir('4')">4</button>
-        <button onclick="escribir('5')">5</button>
-        <button onclick="escribir('6')">6</button>
-        <br>
-        <button onclick="escribir('7')">7</button>
-        <button onclick="escribir('8')">8</button>
-        <button onclick="escribir('9')">9</button>
-        <br>
-        <button onclick="escribir('0')">0</button>
-        <button onclick="operacion('+')">+</button>
-        <button onclick="operacion('-')">-</button>
-        <br>
-        <button onclick="operacion('*')">×</button>
-        <button onclick="operacion('/')">÷</button>
-        <button onclick="resultadoFinal()">=</button>
-        <br>
-        <button onclick="borrar()">Borrar</button>
-    </h1>
-    <script src="calculadora.js"></script>
+    <br>
+    <br>
+    <br>
+    <button id="aritmética" onclick="window.location.href='aritmética.html'">
+        <h2>
+            Aritmética
+        </h2>
+    </button>
+    <button id="dinero" onclick="window.location.href='dinero.html'">
+        <h2>
+            Dinero
+        </h2>
+    </button>
+    <!-- button id="Calor" onclick="window.location.href='Calor.html'">
+        <h2>
+            Calor
+        </h2>
+    </button -->
+    <button id="temperatura" onclick="window.location.href='temperatura.html'">
+        <h2>
+            Temperatura
+        </h2>
+    </button>
+    <br>
+    <br>
+    <button id="SIImp" onclick="window.location.href='SIImp.html'">
+        <h2>
+            Longitudes(SI-Imp)
+        </h2>
+    </button>
+    <button id="masa" onclick="window.location.href='masa.html'">
+        <h2>
+            Masa
+        </h2>
+    </button>
+    <button id="volumen" onclick="window.location.href='volumen.html'">
+        <h2>
+            Volumen
+        </h2>
+    </button>
 </body>
 </html>

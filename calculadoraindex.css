@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+}
+
+.titulo {
+    color: rgb(43, 180, 235);
+    background-color: hsl(120, 100%, 68%);
+}
+
+#aritmética {
+    border: -15px solid #000;
+    background-color: rgb(255, 87, 87);
+    width: 250px;
+    height: 50px;
+}
+
+#dinero {
+    border: -15px solid #000;
+    background-color: rgb(255, 176, 72);
+    width: 250px;
+    height: 50px;
+}
+
+#temperatura {
+    border: -15px solid #000;
+    background-color: rgb(253, 255, 129);
+    width: 250px;
+    height: 50px;
+}
+
+#SIImp {
+    border: -15px solid #000;
+    background-color: rgb(103, 255, 111);
+    width: 250px;
+    height: 50px;
+}
+
+#masa {
+    border: -15px solid #000;
+    background-color: rgb(108, 210, 218);
+    width: 250px;
+    height: 50px;
+}
+
+#volumen {
+    border: -15px solid #000;
+    background-color: rgb(64, 93, 252);
+    width: 250px;
+    height: 50px;
+}
