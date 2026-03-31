@@ -49,3 +49,10 @@ body{
     width: 250px;
     height: 50px;
 }
+
+#datos {
+    border: -15px solid #000;
+    background-color: rgb(159, 115, 201);
+    width: 250px;
+    height: 50px;
+}
